@@ -1,0 +1,416 @@
+{
+    "1214": {
+        "id": 2274,
+        "restaurants_order_id": 1214,
+        "client_name": "Lucyna Chojnowska",
+        "delivery_address": "Grunwaldzka  32a",
+        "phone_number": "503558725",
+        "email": "polonistka32@gmail.com",
+        "ordered_date": "2021-01-22",
+        "ordered_time": "11:37",
+        "to_pay": "90.00",
+        "delivery_price": "0",
+        "comment": "Proszę o dostawę na godz.13.30",
+        "preparation_time": "",
+        "promotion_code": "",
+        "payment_control": "cIMjEHMAqkNeBKO",
+        "payment_type": "1",
+        "payment_status": "2",
+        "progress": "5",
+        "marketing_permit": true,
+        "restaurant": 1,
+        "delivery_city": "Dąbrowa Tarnowska",
+        "is_place": true,
+        "meal_options": [
+            {
+                "name": "ZESTAW DNIA",
+                "price": 22.0,
+                "category": "LUNCH",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "RIGATONI Z ŁOSOSIEM",
+                "price": 25.0,
+                "category": "MAKARONY I RISOTTO",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "Łosoś z grilla",
+                "price": 35.0,
+                "category": "RYBY",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "ZUPA DNIA",
+                "price": 8.0,
+                "category": "ZUPY",
+                "additions": [],
+                "quantity": 1.0
+            }
+        ]
+    },
+    "1215": {
+        "id": 2275,
+        "restaurants_order_id": 1215,
+        "client_name": "Karol Pytel",
+        "delivery_address": "Żabieńska  2B",
+        "phone_number": "513235350",
+        "email": "karolpyt1999@gmail.com",
+        "ordered_date": "2021-01-22",
+        "ordered_time": "11:55",
+        "to_pay": "45.00",
+        "delivery_price": "0",
+        "comment": "",
+        "preparation_time": "",
+        "promotion_code": "PROMOCJA",
+        "payment_control": "wNYtSCcAdsrXeEg",
+        "payment_type": "1",
+        "payment_status": "2",
+        "progress": "5",
+        "marketing_permit": false,
+        "restaurant": 1,
+        "delivery_city": "Dąbrowa Tarnowska",
+        "is_place": true,
+        "meal_options": [
+            {
+                "name": "BURGER PER TUTTI Z MOZZARELLĄ",
+                "price": 25.0,
+                "category": "BURGERY",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "BURGER PER TUTTI Z MOZZARELLĄ",
+                "price": 25.0,
+                "category": "BURGERY",
+                "additions": [],
+                "quantity": 1.0
+            }
+        ]
+    },
+    "1216": {
+        "id": 2276,
+        "restaurants_order_id": 1216,
+        "client_name": "Bartek Kozaczka",
+        "delivery_address": "Niecała 3a",
+        "phone_number": "537139794",
+        "email": "bearx13@o2.pl",
+        "ordered_date": "2021-01-22",
+        "ordered_time": "13:16",
+        "to_pay": "43.20",
+        "delivery_price": "0",
+        "comment": "",
+        "preparation_time": "",
+        "promotion_code": "PROMOCJA",
+        "payment_control": "CVnvsrzXCdFnxeE",
+        "payment_type": "2",
+        "payment_status": "2",
+        "progress": "5",
+        "marketing_permit": false,
+        "restaurant": 1,
+        "delivery_city": "Dąbrowa Tarnowska",
+        "is_place": true,
+        "meal_options": [
+            {
+                "name": "BIANCA",
+                "price": 25.0,
+                "category": "PIZZA (32cm)",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "PENNE PRIMAVERA",
+                "price": 23.0,
+                "category": "MAKARONY I RISOTTO",
+                "additions": [],
+                "quantity": 1.0
+            }
+        ]
+    },
+    "1217": {
+        "id": 2278,
+        "restaurants_order_id": 1217,
+        "client_name": "Wieslaw Dabrowa",
+        "delivery_address": "Gruszowska  26",
+        "phone_number": "793233239",
+        "email": "dabrowadominika@gmail.com",
+        "ordered_date": "2021-01-22",
+        "ordered_time": "14:24",
+        "to_pay": "72.20",
+        "delivery_price": "0",
+        "comment": "",
+        "preparation_time": "",
+        "promotion_code": "PROMOCJA",
+        "payment_control": "RqYjwKBGadBxtai",
+        "payment_type": "1",
+        "payment_status": "2",
+        "progress": "5",
+        "marketing_permit": false,
+        "restaurant": 1,
+        "delivery_city": "Dąbrowa Tarnowska",
+        "is_place": true,
+        "meal_options": [
+            {
+                "name": "QUATRO FORMAGI",
+                "price": 23.0,
+                "category": "PIZZA (32cm)",
+                "additions": [
+                    {
+                        "name": "sos czosnkowy",
+                        "price": 1.0
+                    },
+                    {
+                        "name": "sos pomidorowy",
+                        "price": 1.0
+                    }
+                ],
+                "quantity": 1.0
+            },
+            {
+                "name": "PIECZONY PSTRĄG",
+                "price": 29.0,
+                "category": "RYBY",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "Krem z dyni",
+                "price": 13.0,
+                "category": "ZUPY",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "Krem z dyni",
+                "price": 13.0,
+                "category": "ZUPY",
+                "additions": [],
+                "quantity": 1.0
+            }
+        ]
+    },
+    "1218": {
+        "id": 2279,
+        "restaurants_order_id": 1218,
+        "client_name": "Magda Ciurus",
+        "delivery_address": "Westerplatte  3/44",
+        "phone_number": "781282877",
+        "email": "magdalena.ciurus@gmail.com",
+        "ordered_date": "2021-01-22",
+        "ordered_time": "15:16",
+        "to_pay": "37.80",
+        "delivery_price": "0",
+        "comment": "",
+        "preparation_time": "",
+        "promotion_code": "PROMOCJA",
+        "payment_control": "YAxswIrQEYqcbNx",
+        "payment_type": "1",
+        "payment_status": "2",
+        "progress": "5",
+        "marketing_permit": true,
+        "restaurant": 1,
+        "delivery_city": "Dąbrowa Tarnowska",
+        "is_place": true,
+        "meal_options": [
+            {
+                "name": "Tortilla",
+                "price": 19.0,
+                "category": "BURGERY",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "LASAGNE",
+                "price": 23.0,
+                "category": "MAKARONY I RISOTTO",
+                "additions": [],
+                "quantity": 1.0
+            }
+        ]
+    },
+    "1219": {
+        "id": 2280,
+        "restaurants_order_id": 1219,
+        "client_name": "Oliwia Marciniec",
+        "delivery_address": "Legionistów 5",
+        "phone_number": "535480780",
+        "email": "oliwka.marciniec@gmail.com",
+        "ordered_date": "2021-01-22",
+        "ordered_time": "15:17",
+        "to_pay": "80.50",
+        "delivery_price": "0",
+        "comment": "Burger bez pomidora.",
+        "preparation_time": "",
+        "promotion_code": "PROMOCJA",
+        "payment_control": "LNSqtvAXxCIycLA",
+        "payment_type": "2",
+        "payment_status": "2",
+        "progress": "5",
+        "marketing_permit": false,
+        "restaurant": 1,
+        "delivery_city": "Dąbrowa Tarnowska",
+        "is_place": true,
+        "meal_options": [
+            {
+                "name": "ZESTAW DNIA",
+                "price": 22.0,
+                "category": "LUNCH",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "SPAGHETTI BOLOGNESE",
+                "price": 21.0,
+                "category": "MAKARONY I RISOTTO",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "BURGER PER TUTTI Z MOZZARELLĄ",
+                "price": 25.0,
+                "category": "BURGERY",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "CEZAR",
+                "price": 19.0,
+                "category": "SAŁATKI",
+                "additions": [],
+                "quantity": 1.0
+            }
+        ]
+    },
+    "1221": {
+        "id": 2282,
+        "restaurants_order_id": 1221,
+        "client_name": "Daenerys Targaryen",
+        "delivery_address": "rozana 12",
+        "phone_number": "660305780",
+        "email": "wec.piterr@gmail.com",
+        "ordered_date": "2021-01-22",
+        "ordered_time": "16:48",
+        "to_pay": "24.00",
+        "delivery_price": "2",
+        "comment": "zamiast pieczarek poproszę oliwki (obojętnie które, mogą być oba warianty // będe wdzieczny jak wyrobicie się przed 18 :)",
+        "preparation_time": "",
+        "promotion_code": "",
+        "payment_control": "TftcRwmkfrnAAKQ",
+        "payment_type": "2",
+        "payment_status": "2",
+        "progress": "5",
+        "marketing_permit": true,
+        "restaurant": 1,
+        "delivery_city": "Dąbrowa Tarnowska",
+        "is_place": true,
+        "meal_options": [
+            {
+                "name": "PEPPERONI",
+                "price": 21.0,
+                "category": "PIZZA (32cm)",
+                "additions": [
+                    {
+                        "name": "sos czosnkowy",
+                        "price": 1.0
+                    }
+                ],
+                "quantity": 1.0
+            }
+        ]
+    },
+    "1222": {
+        "id": 2285,
+        "restaurants_order_id": 1222,
+        "client_name": "JADWIGA KUTA",
+        "delivery_address": "GRUSZOWSKA 43A",
+        "phone_number": "600134070",
+        "email": "jadwiga.kuta@gmail.com",
+        "ordered_date": "2021-01-22",
+        "ordered_time": "19:03",
+        "to_pay": "54.00",
+        "delivery_price": "0",
+        "comment": "pizza capriciosa bez oliwek",
+        "preparation_time": "",
+        "promotion_code": "PROMOCJA",
+        "payment_control": "EosuDmhRBLdZNhl",
+        "payment_type": "1",
+        "payment_status": "2",
+        "progress": "5",
+        "marketing_permit": false,
+        "restaurant": 1,
+        "delivery_city": "Dąbrowa Tarnowska",
+        "is_place": true,
+        "meal_options": [
+            {
+                "name": "CAPRICIOSA",
+                "price": 21.0,
+                "category": "PIZZA (32cm)",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "Cipolla",
+                "price": 25.0,
+                "category": "PIZZA (32cm)",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "PIZZA MARGARITA (OK. 20 CM)",
+                "price": 14.0,
+                "category": "MENU DZIECIĘCE",
+                "additions": [],
+                "quantity": 1.0
+            }
+        ]
+    },
+    "1223": {
+        "id": 2286,
+        "restaurants_order_id": 1223,
+        "client_name": "Wojciech Kruk",
+        "delivery_address": "Grunwaldzka  13/4",
+        "phone_number": "693968088",
+        "email": "wojtekkruk@interia.eu",
+        "ordered_date": "2021-01-22",
+        "ordered_time": "20:18",
+        "to_pay": "57.00",
+        "delivery_price": "0",
+        "comment": "",
+        "preparation_time": "",
+        "promotion_code": "",
+        "payment_control": "ItpxijpEpAtntOi",
+        "payment_type": "1",
+        "payment_status": "2",
+        "progress": "5",
+        "marketing_permit": false,
+        "restaurant": 1,
+        "delivery_city": "Dąbrowa Tarnowska",
+        "is_place": true,
+        "meal_options": [
+            {
+                "name": "Tortilla",
+                "price": 19.0,
+                "category": "BURGERY",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "Tortilla",
+                "price": 19.0,
+                "category": "BURGERY",
+                "additions": [],
+                "quantity": 1.0
+            },
+            {
+                "name": "Tortilla",
+                "price": 19.0,
+                "category": "BURGERY",
+                "additions": [],
+                "quantity": 1.0
+            }
+        ]
+    }
+}
