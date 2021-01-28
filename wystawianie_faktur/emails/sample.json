@@ -1,0 +1,12 @@
+{
+    "email_domain": "mail.hyperionenergy.pl",
+    "email": "test@hyperionenergy.pl",
+    "email_pass": "testpass1",
+    "email_signature": "Krystian Gielarowski - HyperionEnergy",
+    "email_subject": "Oferta instalacji",
+    "email_text": "Oferuje instalacje za 20000zł",
+    "recievers": [
+        "pawelbaczek@gej.pl",
+        "dawidstec@maczo.pl"
+    ]
+}
