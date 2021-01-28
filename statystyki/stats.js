@@ -92,11 +92,35 @@ class RestaurantStatsData {
   }
   get earningsByMonths(){
     let months = {}
-    for (row in this.getQueryResults(this.earningsByDaySQL("DESC", this.amountOfData))) {
-      if (months.hasOwnProperty(row.order_date) {
-        console.log(a[key]);
+    let rows = this.earningsByDays
+    for(let i=0; i<rows.length; i++)
+    {
+      let month = rows[i].order_date.substring(0, rows[i].order_date.length-3)
+      if (months.hasOwnProperty(month)) {
+        months[month] += rows[i].earned
+      }
+      else{
+        months[month] = rows[i].earned
       }
     }
+    
+    return months
+  }
+  get ordersAmountsByMonths(){
+    let months = {}
+    let rows = this.ordersAmountByDays
+    for(let i=0; i<rows.length; i++)
+    {
+      let month = rows[i].order_date.substring(0, rows[i].order_date.length-3)
+      if (months.hasOwnProperty(month)) {
+        months[month] += rows[i].quantity
+      }
+      else{
+        months[month] = rows[i].quantity
+      }
+    }
+    
+    return months
   }
   get ordersAmountByMonths(){
     return this.getQueryResults(this.ordersAmountByDaySQL("DESC", this.amountOfData))
@@ -156,6 +180,10 @@ console.log("Earnings by days")
 console.log(stats.earningsByDays)
 console.log("Orders amount by days")
 console.log(stats.ordersAmountByDays)
+console.log("Earnings by months")
+console.log(stats.earningsByMonths)
+console.log("Orders amount by months")
+console.log(stats.ordersAmountsByMonths)
 console.log("Top earning meals")
 console.log(stats.topEarnerMeals)
 console.log("Worst earning meals")
