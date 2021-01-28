@@ -2,18 +2,17 @@
 include 'cors_headers.php';
 include 'configure_emails.php';
 
-function send_email_campaign()
+function send_invoice_email($pdf_file, $email_text, $reciever)
 {
-	$recieved_json = json_decode(file_get_contents('php://input'), true);
-  	if ($recieved_json == NULL)
-		return "Recieved marketing contact json is NULL";
-	$email_domain = $recieved_json["email_domain"];
-	$email = $recieved_json["email"];
-	$email_pass = $recieved_json["email_pass"];
-	$email_signature = $recieved_json["email_signature"];
-	$email_subject = $recieved_json["email_subject"];
-	$email_text = $recieved_json["email_text"];
-	$recievers = $recieved_json["recievers"];
+	$json_path = 'email_config.json';
+    if (file_exists(dirname(__FILE__) . $json_path))
+        return "Orders JSON does not exist";
+    $json = json_decode(file_get_contents($json_path), true);
+	$email_domain = $json["email_domain"];
+	$email = $json["email"];
+	$email_pass = $json["email_pass"];
+	$email_signature = $json["email_signature"];
+	$email_subject = $json["email_subject"];
 	$mail = get_mail_object($email_domain, $email, $email_pass, $email_signature);
 	if (is_string($mail)){
 		header("Status: 400 Bad Request");
@@ -21,13 +20,12 @@ function send_email_campaign()
 	}
   
 	try {
-    	foreach ($recievers as $value){
-        	$mail->addBCC($value);
-    	}
+        $mail->addBCC($reciever);
         $mail->isHTML(true);                                  
         $mail->Subject = $email_subject;
         $mail->Body    = $email_text;
-        $mail->AltBody = $email_text;
+		$mail->AltBody = $email_text;
+		$mail->AddAttachment($pdf_file, $name = 'invoice.pdf',  $encoding = 'base64', $type = 'application/pdf');
         $mail->send();
   	} catch (Exception $e) {
 		header("Status: 400 Bad Request");
@@ -35,5 +33,4 @@ function send_email_campaign()
 	}
 }
 
-echo send_email_campaign();
 ?>

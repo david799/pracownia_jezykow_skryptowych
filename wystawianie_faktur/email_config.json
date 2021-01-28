@@ -1,0 +1,11 @@
+{
+    "email_domain": "mail.srv22208.microhost.com.pl",
+    "email": "faktury@srv22208.microhost.com.pl",
+    "email_pass": "faktury1",
+    "email_signature": "FeedWeb",
+    "email_subject": "Faktura",
+    "email_text": "text",
+    "recievers": [
+        "dawidstec96@gmail.com"
+    ]
+}

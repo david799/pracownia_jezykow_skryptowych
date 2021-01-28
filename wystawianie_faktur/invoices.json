@@ -1,19 +1,31 @@
-Faktura nr: A2/1/2021
-Metoda kasowa
-data wystawienia: 10/01/2021
-data wydania towaru lub wykonania usługi: 10/01/2021
-Nabywca:
-GOOD FOOD Justyna Skrzelowska
-ul. Sucharskiego 8
-33‐200 Dąbrowa Tarnowska
-NIP: 8711777112
-Do zapłaty: 233,70 PLN
-Słownie: dwieście trzydzieści trzy 70/100 PLN
-Sposób zapłaty: przelew
-Termin: 24/01/2021
-Rachunek: PL72 1870 1045 2078 1067 6003 0001
-
-
-
-
-
+[
+    {
+        "identifier": "A2",
+        "reciever": {
+            "name": "GOOD FOOD",
+            "address1": "ul. Sucharskiego 8",
+            "address2": "33 200 Dabrowa Tarnowska",
+            "nip": "NIP: 8711777112"
+        },
+        "to_pay": "233,70 PLN",
+        "to_pay_words": "dwiescie trzydziesci trzy 70/100 PLN",
+        "payment_method": "przelew",
+        "account_number": "PL72 1870 1045 2078 1067 6003 0001",
+        "products": [
+            {
+                "lp": "1",
+                "name": "Abonament",
+                "pkwiu": " ",
+                "net_price": 190.0,
+                "quantity": 1,
+                "unit": "szt.",
+                "net_value": 190.0,
+                "vat_percent": 23,
+                "vat_value": 43.7,
+                "gross_value": 233.7
+            }
+        ],
+        "email": "dawidstec2@o2.pl",
+        "email_text": "Prosze o zaplate"
+    }
+]
